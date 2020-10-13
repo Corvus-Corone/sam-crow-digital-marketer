@@ -1,0 +1,246 @@
+/* ------------------------------------HTML------------------------------*/
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  background-color: #e9e4e6;
+  text-align: center;
+}
+
+a {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  color: #3bb4c1;
+  margin: 0 5px 0 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 17px;
+  color: #048998;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* ------------------------------------Text------------------------------*/
+.mainTitle {
+  font-size: 7vw  ;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  color: #3bb4c1;
+
+}
+
+.title {
+  font-size: 300%;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2.5vw;
+}
+
+.bodyText {
+  font-size: 1.8vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.whiteText {
+  color: #f6f5f5;
+}
+
+.btnFont{
+
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+}
+
+/* ------------------------------------Sections------------------------------*/
+.intro {}
+
+.about {
+  background-color: #f6f5f5;
+  height: auto;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.blueSection {
+  background-color: #3bb4c1;
+  margin: 0;
+  height: auto;
+  z-index: 0;
+}
+
+.titleSection {
+  height: auto;
+  background-color: #e9e4e6;
+  margin: 0;
+  position: relative;
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  z-index: 0;
+}
+
+.aboutText {
+  text-align: center;
+  padding-top: 5%;
+  padding-top: 5%;
+}
+
+.skills {
+  background-color: #e9e4e6;
+  z-index: 0;
+  width: 100%;
+  position: relative;
+}
+
+.skillsDetail {
+  margin: 5% 2% 10% 2%;
+  padding: 0 2% 0 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience {
+  background-color: #3bb4c1;
+  height: auto;
+  z-index: 0;
+  width: 100%;
+  position: relative;
+}
+
+.nav {
+  background-color: #f6f5f5;
+}
+
+.setWidth {
+  width: 100%;
+  padding: 5%;
+  height: 40%
+}
+
+.bottomRow {
+  margin-bottom: 5%;
+}
+
+.topRow {
+  margin-top: 10%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.pinToBottom {
+  bottom: 0;
+}
+
+.width100 {
+  width: 100%;
+  margin: 5px;
+}
+
+.width80 {
+  width: 80%;
+  margin: 5px;
+}
+
+.btn-width{
+  width: 100;
+}
+
+/* ------------------------------------Images------------------------------*/
+.photo {
+  width: 100%;
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+.shad {
+  height: 90%;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.round-img {
+  width: 80%;
+  border-radius: 100%;
+  margin: 20px 0;
+  text-align: center;
+  position: inherit;
+}
+
+.round-img-lg {
+  width: 100%;
+  border-radius: 100%;
+  margin: 20px 0;
+  text-align: center;
+  position: inherit;
+}
+
+.bw {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.round-img:hover {
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%);
+}
+
+/* ------------------------------------Images------------------------------*/
+.hi {
+  animation: fadeIn;
+  animation-duration: 800ms;
+  animation-delay: 0.5s;
+}
+
+.name {
+  animation: fadeIn;
+  animation-duration: 800s;
+  animation-delay: 1.5s;
+}
+
+.jobdes {
+  animation: fadeIn;
+  animation-duration: 800ms;
+  animation-delay: 3s;
+}
+
+.introBtn {
+  animation: fadeIn;
+  animation-duration: 800ms;
+  animation-delay: 4s;
+}
