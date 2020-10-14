@@ -10,6 +10,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -19,18 +20,18 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">Skills</a>
-        <a class="nav-link" href="#">Experience</a>
-        <a class="nav-link" href="#">Contact</a>
+      <div class="navbar-nav bodyText">
+        <a class="nav-link active body" href="#intro">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#experince"w>Experience</a>
+
       </div>
     </div>
   </nav>
 
   <!----------------------------------------------------------Intro section---------------------------------------------------------------------------------->
   <div class="">
-    <div class="container-fluid">
+    <div class="container-fluid" id="intro">
       <div class="row relative">
         <!-- <img src="image/shadow.png" class="shad"> -->
         <img src="image/croppedPhoto.png" class="photo col-xl-5 col-lg-5 col-md-5 d-xs-none d-sm-none d-md-block  pinToBottom">
@@ -40,7 +41,7 @@
           <h2 class="hi subtitle animate__animated animate__fadeIn">Hi,</h2>
           <h1 class="name mainTitle animate__animated animate__fadeIn">I'm Sam</h1>
           <h2 class=" jobdes subtitle animate__animated animate__fadeIn bottomRow">I'm a Digital Marketer with a passion for the health sector</h2>
-          <button type="button" class="btn btnFont btn-lg btn-outline-dark animate__animated animate__fadeIn introBtn" data-toggle="modal" data-target="#contactModal">Contact me</button>
+          <!-- <button type="button" class="btn btnFont btn-lg btn-outline-dark animate__animated animate__fadeIn introBtn" data-toggle="modal" data-target="#contactModal">Contact me</button> -->
         </div>
       </div>
     </div>
@@ -56,7 +57,7 @@
           <h2 class="mainTitle" data-aos="zoom-in">About me</h2>
           <p class="bodyText bottomRow" data-aos="zoom-in">I have spent the entire of my career as a marketer in the healthcare sector. Having worked both agency and client
             side I have a wealth of experience in helping pharmaceutial, medical device and health infrasructure businesses reach their customers on and offline.
-            I have a diverse digital marketing skillset that allows me to plan, produce and execute multichannel camapigns by myself or as part of a team. </p>
+            I have a diverse digital marketing skillset that allows me to plan, produce and execute multichannel campaigns by myself or as part of a team. </p>
         </div>
         <div class="col"></div>
       </div>
@@ -98,64 +99,72 @@
       </div>
 
       <div class="row center" data-aos="zoom-in">
-        <div class="col d-md-none col-sm-2 d-lg-block"></div>
-        <div class="skillsDetail col-lg-2 col-md-5 col-sm-8 col-xs-5 no-gutters">
-          <img class="round-img-lg bw" src="image/content_marketing.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#contentMarketing">
-            <p class="bodyText">Content Marketing<br> </p>
+        <div class="col d-md-none d-sm-none d-xs-none d-lg-block"></div>
+        <div class="skillsDetail col-lg-2 col-md-5 col-sm-6 col-xs-6 no-gutters">
+          <img class="round-img bw" src="image/content_marketing.png" alt="">
+          <h3>Content<br>Marketing<br><br></h3>
+          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#contentMarketing">
+            <p class="btnFont">More Info</p>
           </button>
         </div>
-        <div class="skillsDetail col-lg-2 col-md-5 col-sm-8 col-xs-5 no-gutters">
-          <img class="round-img-lg bw" src="image/inbound.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#inboundMarketing">
-            <p class="bodyText">Inbound Marketing<br></p>
-          </button>
-          </p>
-        </div>
-        <div class="skillsDetail col-lg-2 col-md-5 col-sm-8 col-xs-5 no-gutters">
-          <img class="round-img-lg bw" src="image/social.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#socialMedia">
-            <p class="bodyText">Social<br>Media<br> </p>
+        <div class="skillsDetail col-lg-2 col-md-5 col-sm-6 col-xs-6 no-gutters">
+          <img class="round-img bw" src="image/inbound.png" alt="">
+          <h3>Inbound<br>Marketing<br><br></h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#inboundMarketing">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
-        <div class="skillsDetail col-lg-2 col-md-5 col-sm-8 col-xs-5 no-gutters">
-          <img class="round-img-lg bw" src="image/CRM.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#CRM">
-            <p class="bodyText">Client<br>Relationship<br>Managment</p>
+        <div class="skillsDetail col-lg-2 col-md-5 col-sm-6 col-xs-6 no-gutters">
+          <img class="round-img bw" src="image/social.png" alt="">
+          <h3>Social<br>Media<br><br></h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#socialMedia">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
-        <div class="col d-md-none col-sm-2 d-lg-block"></div>
+        <div class="skillsDetail col-lg-2 col-md-5 col-sm-6 col-xs-6 no-gutters">
+          <img class="round-img bw" src="image/CRM.png" alt="">
+          <h3>Client<br>Relationship<br> Management</h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#CRM">
+            <p class="btnFont">More Info</p>
+          </button>
+          </p>
+        </div>
+        <div class="col d-md-none d-sm-none d-lg-block"></div>
       </div>
 
       <div class="row center" data-aos="zoom-in">
-        <div class="col d-md-none d-sm-none d-lg-block"></div>
+        <div class="col d-md-none d-sm-none d-xs-none d-lg-block"></div>
         <div class="skillsDetail col-lg-2 col-md-5 col-sm-10 no-gutters">
-          <img class="round-img-lg bw" src="image/design.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#design">
-            <p class="bodyText">Design & Production<br> </p>
+          <img class="round-img bw" src="image/design.png" alt="">
+          <h3>Design<br>&<br>Production</h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#design">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
         <div class="skillsDetail col-lg-2 col-md-5 col-sm-10 no-gutters">
-          <img class="round-img-lg bw" src="image/digitalAds.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#digitalAds">
-            <p class="bodyText">Digital Advertising<br> </p>
+          <img class="round-img bw" src="image/digitalAds.png" alt="">
+          <h3>Digital<br>Advertising<br><br></h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#digitalAds">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
         <div class="skillsDetail col-lg-2 col-md-5 col-sm-10 no-gutters">
-          <img class="round-img-lg bw" src="image/webDevelopment.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#web">
-            <p class="bodyText">Web & CMS</p>
+          <img class="round-img bw" src="image/webDevelopment.png" alt="">
+          <h3>Web Dev<br>& Management</h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#web">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
         <div class="skillsDetail col-lg-2 col-md-5 col-sm-10 no-gutters">
-          <img class="round-img-lg bw" src="image/email.png" alt="">
-          <button class="btn btn-outline-dark setWidth" type="button" data-toggle="modal" data-target="#emailMarketing">
-            <p class="bodyText">Email<br>Marketing<br> </p>
+          <img class="round-img bw" src="image/email.png" alt="">
+          <h3>Email<br>Marketing<br><br></h3>
+          <button class="btn btn-outline-dark btnFont" type="button" data-toggle="modal" data-target="#emailMarketing">
+            <p class="btnFont">More Info</p>
           </button>
           </p>
         </div>
@@ -182,25 +191,26 @@
 
       <div class="row center topRow bottomRow" data-aos="zoom-in">
         <div class="col d-md-none d-sm-none d-lg-block"></div>
-        <div class="col-lg-5 col-md-5 col-sm-10 skillsDetail">
+        <div class="col-lg-4 col-md-4 col-sm-10 skillsDetail whiteText">
           <img class="round-img" src="image/wellspect.png" alt="">
           <h3>Wellspect<br>Healthcare</h3>
           <br>
           <p class="bodyText">Digital Marketing Manager<br>2019-Present</p>
           <br>
-          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#wellspectDigital">
+          <button class="btn btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#wellspect1">
             More info
           </button>
-
         </div>
 
-        <div class="col-lg-5 col-md-5 col-sm-10 skillsDetail">
+<div class="col"></div>
+
+        <div class="col-lg-4 col-md-4 col-sm-10 skillsDetail whiteText">
           <img class="round-img" src="image/wellspect.png" alt="">
           <h3>Wellspect<br>Healthcare</h3>
           <br>
           <p class="bodyText">Brand Manager<br>2018-2019</p>
           <br>
-          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#wellspectBrand">
+          <button class="btn btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#wellspect2">
             More info
           </button>
           </p>
@@ -210,25 +220,27 @@
 
       <div class="row center" data-aos="zoom-in">
         <div class="col d-md-none d-sm-none d-lg-block"></div>
-        <div class=" col-lg-5 col-md-5 col-sm-10 bottomRow skillsDetail">
+        <div class=" col-lg-4 col-md-4 col-sm-10 bottomRow skillsDetail whiteText">
           <img class="round-img" src="image/Liquorice.png" alt="">
           <h3>Liquorice<br> </h3>
           <br>
           <p class="bodyText">Account Manager<br>2016-2018</p>
           <br>
-          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#liquorice">
+          <button class="btn btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#liquorice">
             More info
           </button>
           </p>
         </div>
 
-        <div class="col-lg-5 col-md-5 col-sm-10 bottomRow skillsDetail">
+        <div class="col"></div>
+
+        <div class="col-lg-4 col-md-4 col-sm-10 bottomRow skillsDetail whiteText">
           <img class="round-img" src="image/vanguard.png" alt="">
           <h3>Vanguard<br></h3>
           <br>
           <p class="bodyText">Marketing & Comms Coordinator<br>2014-2016</p>
           <br>
-          <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#vanguard">
+          <button class="btn btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#vanguard">
             More info
           </button>
           </p>
@@ -287,8 +299,8 @@
             <div class="form-group">
               <label for="message-text" class="col-form-label"> Your Message:</label>
               <textarea class="form-control" id="message-text"></textarea>
-            </div>
             <input type="submit" class="btn btn-primary">Send message</button>
+            </div>
           </form>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
@@ -304,7 +316,7 @@
     <div class="modal-dialog ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="contentMarketingLabel">Content Marketing</h5>
+          <h5 class="modal-title title" id="contentMarketingLabel">Content Marketing</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -424,10 +436,18 @@
             I have many years experience with the Adobe Creative suite software including:</p>
         </div>
         <ul>
-          <li><p class="bodyText">PhotoShop</p></li>
-          <li><p class="bodyText">InDesign</p></li>
-          <li><p class="bodyText">Illustrator</p></li>
-          <li><p class="bodyText">Premier</p></li>
+          <li>
+            <p class="bodyText">PhotoShop</p>
+          </li>
+          <li>
+            <p class="bodyText">InDesign</p>
+          </li>
+          <li>
+            <p class="bodyText">Illustrator</p>
+          </li>
+          <li>
+            <p class="bodyText">Premier</p>
+          </li>
         </ul>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -447,8 +467,8 @@
         </div>
         <div class="modal-body">
           <p class="bodyText">I'm a big believer that digital advertising can deliver above and beyond print and other traditional mediums.
-          Digital ads are cost effective, highly targeted and provide detailed metrics that make it simple to deliver return on investment.
-        I have experince running digital ad campaigns on social media, third party sites and search engines via PPC.</p>
+            Digital ads are cost effective, highly targeted and provide detailed metrics that make it simple to deliver return on investment.
+            I have experince running digital ad campaigns on social media, third party sites and search engines via PPC.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -468,8 +488,8 @@
         </div>
         <div class="modal-body">
           <p class="bodyText">While web development is currently more of a hobby for me, it has unlocked a huge potential in my digital marketing,
-             I'm now capable and comfortable with building HTML emails and simple web pages like this one from scratch. While I have been content
-             managing websites from day one of my career, so I'm comfortable with Wordpress, Sitecore, Umbraco and Hubspot sites.</p>
+            I'm now capable and comfortable with building HTML emails and simple web pages like this one from scratch. While I have been content
+            managing websites from day one of my career, so I'm comfortable with Wordpress, Sitecore, Umbraco and Hubspot sites.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -501,13 +521,181 @@
 
   <!--Experience Modals-->
 
+  <div class="modal fade" id="wellspect1" tabindex="-1" aria-labelledby="wellspect1Label" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="wellspect1Label">Digital Marketing Manager</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="bodyTextSml">
+            <li>
+              <p>As Digital Marketing Manager, I have been solely responsible for developing and delivering the digital marketing strategy for Wellspect in the UK as well as supporting colleagues in our Swedish head office.</p>
+            </li>
+            <li>
+              <p>Development of digital content including blogs, e-books and other guides to fuel our inbound marketing strategy, driving traffic to the site and converting readers to leads. </p>
+            </li>
+            <li>
+              <p>Daily management of two websites: Wellspect.co.uk and Selecthomedelivery.co.uk each of which operates on a separate CMS system. </p>
+            </li>
+            <li>
+              <p>Social media management of the Wellspect Facebook, Twitter and YouTube accounts, including post creation, scheduling and management of direct messages. </p>
+            </li>
+            <li>
+              <p>Development and delivery of social media advertising campaigns, with recent campaigns setting a record high for both site traffic and conversions. </p>
+            </li>
+            <li>
+              <p> Writing and designing marketing emails, both outbound emails to support campaigns and lead nurturing as part of the inbound methodology. </p>
+            </li>
+            <li>
+              <p>Selection and management of third-party digital advertising partners, delivering a combination of sponsored content, email marketing and display advertising.</p>
+            </li>
+            <li>
+              <p>Production of a monthly digital marketing and communications report, combining all website, social and other digital activity to spot trends and make recommendations for the wider business. As well as mini reports
+                for campaigns or product launches.</p>
+            </li>
+            <li>
+              <p>In addition to my digital marketing responsibilities, I also continue to manage the Select Home Delivery Brand</p>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.wellspect.co.uk/">
+          <button type="button" class="btn btn-dark">Visit Wellspect</button>
+          </a>
+          <button type="button" class="btn btn-secondary btnFont" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="modal fade" id="wellspect2" tabindex="-1" aria-labelledby="wellspect2Label" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="wellspect2Label">Brand Manager</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="bodyTextSml">
+            <li>
+              <p>As Select Brand Manager I was responsible for promoting our home delivery brand to both healthcare professionals and product users. Equally the retention of existing customers was an essential driver in this role.</p>
+            </li>
+            <li>
+              <p>While the global Wellspect brand had undergone a major rebrand prior to the time I joined the business, Select as a UK specific brand had not been included in the process. I was tasked with brining Select in line with the new branding.</p>
+            </li>
+            <li>
+              <p>Drafting, editing and designing a quarterly magazine for customers which aimed to foster a sense of community around the service in order to improve retention rates.</p>
+            </li>
+            <li>
+              <p>Ensuring that Select had a voice on our digital platforms by drafting social media and blog posts. As a result, I began to take over management of the UK websites and social platforms.</p>
+            </li>
+            <li>
+              <p>Designing other marketing collateral and sales tools used to promote Select.</p>
+            </li>
+            <li>
+              <p>In addition to these tasks I became the defacto copywriter and designer for most locally produced marketing collateral.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.wellspect.co.uk/">
+          <button type="button" class="btn btn-dark">Visit Wellspect</button>
+          </a>
+          <a href="https://selecthomedelivery.co.uk/">
+          <button type="button" class="btn btn-dark">Visit Select</button>
+          </a>
+          <button type="button" class="btn btn-secondary btnFont" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="liquorice" tabindex="-1" aria-labelledby="liquoriceLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="liquoriceLabel">Account Manager</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="bodyTextSml">
+            <li>
+              <p>As an Account Manager within a small but active marketing agency, it is my responsibility to liaise with clients and help to deliver their brief – on time and on budget. My client list was made up of both B2B and B2C include heritage teething brand Ashton & Parsons, Europe's number one gluten-free brand Dr Schär and leading London planning consultancy Quod.</p>
+            </li>
+            <li>
+              <p>Managing the creative and web development teams to ensure that my client’s projects are delivered to the high standard expected of the agency.</p>
+            </li>
+            <li>
+              <p>Project managing large campaigns (online and offline), brand development or rebrand work and delivery of everything from websites to television ads, blog content and social media activity.</p>
+            </li>
+            <li>
+              <p>Managing relationships with a host of suppliers including freelancers, printers and photographers and videographers to deliver cost effective solutions for my clients.</p>
+            </li>
+            <li>
+              <p>Acting as CMS manager for several client sites and producing a monthly analytics report to highlight trends and recommend actions.</p>
+            </li>
+            <li>
+              <p>Focus on inbound, digital and content marketing– driving site traffic and creating leads through relevant written content, search engine optimisation and keyword strategies.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="https://liquorice.marketing/">
+          <button type="button" class="btn btn-dark">Visit Liquorice</button>
+          </a>
+          <button type="button" class="btn btn-secondary btnFont" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="vanguard" tabindex="-1" aria-labelledby="vanguardLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="vanguardLabel">Marketing and Communications Coordinator</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="bodyTextSml">
+            <li>
+              <p >As Vanguard’s only Communications professional, I replaced an external PR team and had to learn quickly to deliver the company’s brand values over several mediums – designing, implementing and monitoring strategic communications campaigns both in the UK and in partnership with our agents in Europe.</p>
+            </li>
+            <li>
+              <p>Writing editorial features and press statements to position Vanguard as a thought leader in the healthcare sector – this often means by-lining pieces to senior management and board members – in doing so developing the ability to assume different writing styles.</p>
+            </li>
+            <li>
+              <p>Working alongside agents in key European markets, including Germany, Belgium, The Netherlands and Sweden to facilitate the delivery of Vanguard’s marketing strategies.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.vanguardhealthcare.co.uk/">
+          <button type="button" class="btn btn-dark">Visit Vanguard</button>
+          </a>
+          <button type="button" class="btn btn-secondary btnFont" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--Footer-->
   <footer>
-    <a href="https://www.linkedin.com/in/sam-crow-6b1526a8/" style="margin:left500">LinkedIn</a>
+    <br>
+    <a href="https://www.linkedin.com/in/sam-crow-6b1526a8/">LinkedIn</a>
     <a href="https://www.instagram.com/sjecrow/">Instagram</a>
-    <a href="contact.html">Get in Touch</a>
+    <a href="" data-toggle="modal" data-target="#contactModal">Get in Touch</a>
+    <br><br>
     <p>©Sam Crow 2020</p>
   </footer>
 
