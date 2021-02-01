@@ -23,7 +23,7 @@
       document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('contact_service', 'contact_form', this)
+        emailjs.sendForm('service_iq2fl0n', 'contact_form', this)
           .then(function() {
             console.log('SUCCESS!');
           }, function(error) {
@@ -32,6 +32,7 @@
       });
     }
   </script>
+
 </head>
 
 <body>
@@ -44,7 +45,7 @@
       <div class="navbar-nav navText">
         <a class="nav-link active body" href="#intro">Home <span class="sr-only"></span></a>
         <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#experince">Experience</a>
+        <a class="nav-link" href="#experience">Experience</a>
 
       </div>
     </div>
@@ -307,11 +308,10 @@
   <!--Form Modal-->
 
   <div class="modal modal-fullscreen-sm-down" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title " id="contactModalLabel">New message</h5>
-          <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
@@ -326,9 +326,13 @@
             <label class="form-label">Message</label>
             <textarea class="form-control" name="message"></textarea>
             <br>
-            <input class="btn btn-secondary" type="submit" value="Send">
+            <input id="form-button"  class="btn btn-secondary" type="submit" value="Send">
+            <button  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </form>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="thanks">
+          <h2 class="subtitle">Thanks for the message!</h2>
+          <button  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
         </div>
       </div>
     </div>
@@ -339,7 +343,7 @@
   <!-- Skills Modals-->
 
   <div class="modal fade" id="contentMarketing" tabindex="-1" aria-labelledby="contentMarketingLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="modal-title title" id="contentMarketingLabel">Content Marketing</h5>
@@ -374,7 +378,7 @@
   </div>
 
   <div class="modal fade" id="inboundMarketing" tabindex="-1" aria-labelledby="inboundMarketingLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="inboundMarketingLabel">Inbound Marketing</h5>
@@ -393,7 +397,7 @@
   </div>
 
   <div class="modal fade" id="socialMedia" tabindex="-1" aria-labelledby="socialMediaLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="socialMediaLabel">Analytics & Reporting</h5>
@@ -415,7 +419,7 @@
   </div>
 
   <div class="modal fade" id="CRM" tabindex="-1" aria-labelledby="CRMLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="CRMLabel">Healthcare Marketing</h5>
@@ -435,7 +439,7 @@
   </div>
 
   <div class="modal fade" id="design" tabindex="-1" aria-labelledby="designLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="designLabel">Design & Production</h5>
@@ -470,7 +474,7 @@
   </div>
 
   <div class="modal fade" id="digitalAds" tabindex="-1" aria-labelledby="digitalAdsLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="digitalAdsLabel">Digital Advertising</h5>
@@ -479,7 +483,7 @@
           <div class="modal-text">
             <p class="skills-body-text">I'm a big believer that digital advertising can deliver above and beyond print and other traditional mediums.
               Digital ads are cost effective, highly targeted and provide detailed metrics that make it simple to deliver return on investment.
-              I have experince running digital ad campaigns via both social media and third party display.</p>
+              I have experience running digital ad campaigns via both social media and third party display.</p>
           </div>
         </div>
         <div class="modal-footer">
@@ -490,7 +494,7 @@
   </div>
 
   <div class="modal fade" id="web" tabindex="-1" aria-labelledby="webLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="webLabel">Web Development & Content Managment</h5>
@@ -543,7 +547,7 @@
   </div>
 
   <div class="modal fade" id="emailMarketing" tabindex="-1" aria-labelledby="emailMarketingLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title" id="emailMarketingLabel">Email Marketing</h5>
@@ -748,6 +752,13 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script type="text/javascript">
+
+  document.getElementById("form-button").addEventListener("click", function(){
+    document.querySelector(".thanks").style.display = "block"
+    document.getElementById("contact-form").style.display = "none";
+  })
   </script>
 
 </body>
