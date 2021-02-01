@@ -16,7 +16,7 @@ a {
   font-family: 'Noto Serif TC', serif;
   font-weight: 700;
   color: #3bb4c1;
-  margin: 10% 2.5% 2.5% 2.5%
+  margin: 1% 2.5% 2.5% 2.5%
 }
 
 a:hover {
@@ -39,15 +39,25 @@ h3{
 
 /* ------------------------------------Text------------------------------*/
 .mainTitle {
-  font-size: 7vw  ;
+  font-size: calc(1.8rem + 3.3vw);
+  /* font-size: 7vw  ; */
   font-family: 'Noto Serif TC', serif;
   font-weight: 700;
   color: #3bb4c1;
 
 }
 
+.experienceTitle {
+  font-size: calc(1.8rem + 3.3vw);
+  /* font-size: 7vw  ; */
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  color: #3bb4c1;
+padding-bottom: 7%;
+}
+
 .title {
-  font-size: 300%;
+  font-size: calc(1rem + 3vw);
   font-family: 'Noto Serif TC', serif;
   font-weight: 300;
 }
@@ -55,15 +65,26 @@ h3{
 .subtitle {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 2.5vw;
+  font-size: calc(1rem + 2vw);
 }
 
 .bodyText {
-  font-size: 1.8vw;
+font-size: calc(.5rem + 1.5vw);
+}
+
+.skills-body-text {
+font-size: calc(.4rem + .5vw);
+}
+
+.navText{
+  font-size: 70%;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
 }
 
 .bodyTextSml {
-  font-size: 1vw;
+  font-size: calc(.3rem + 1vw);
+  font-family: 'Noto Serif TC', serif;
 }
 
 .center {
@@ -80,7 +101,16 @@ h3{
   font-weight: 700;
 }
 
+.two-column{
+  column-count: 2
+}
+
 /* ------------------------------------Sections------------------------------*/
+
+.nav-corner{
+  border-radius: 0
+}
+
 .intro {}
 
 .about {
@@ -125,11 +155,20 @@ h3{
 }
 
 .skillsDetail {
-  margin: 5% 2% 10% 2%;
+  margin: 0% 2% 8% 2%;
   padding: 0 2% 0 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.experienceDetail {
+  border-radius: 5% 5%;
+  border-color: #f6f5f5;
+  border-width: 5px;
+  border-style: solid;
+  width: 80%;
+
 }
 
 .experience {
@@ -150,6 +189,7 @@ h3{
   height: 40%
 }
 
+
 .bottomRow {
   margin-bottom: 5%;
 }
@@ -164,6 +204,10 @@ h3{
 
 .absolute {
   position: absolute;
+}
+
+.inline{
+  display: inline-block;
 }
 
 .pinToBottom {
@@ -186,7 +230,7 @@ h3{
 
 /* ------------------------------------Images------------------------------*/
 .photo {
-  width: 100%;
+
   z-index: 2;
   display: inline-block;
   position: absolute;
@@ -212,10 +256,18 @@ h3{
   position: inherit;
 }
 
-.round-img-lg {
+.round-corner-img {
   width: 100%;
-  border-radius: 100%;
+  border-radius: 10%;
   margin: 20px 0;
+  text-align: right;
+  position: inherit;
+}
+
+.round-img-lg {
+  width: 70%;
+  border-radius: 100%;
+  margin: 1% 0;
   text-align: center;
   position: inherit;
 }
@@ -254,3 +306,41 @@ h3{
   animation-duration: 800ms;
   animation-delay: 4s;
 }
+
+/* --------------------------------Modals------------------------------------ */
+
+.modal-green-head{
+background-color: #3bb4c1;
+text-align: center;
+color: #f6f5f5
+}
+
+.modal-grey-head{
+  background-color: #e9e4e6;
+  text-align: center;
+  color: #3bb4c1
+}
+
+.modal-green-head{
+
+  }
+
+.modal-grey-head{
+
+  }
+
+.modal-text{
+  padding: 1% 10%;
+}
+
+.skills-text{
+  padding: 2% 2%;
+
+}
+
+  /* ------------------------------Buttons----------------------------------- */
+
+  .green-btn{
+  background-color: #3bb4c1;
+  color: #f6f5f5
+  }
