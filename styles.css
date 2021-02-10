@@ -40,7 +40,6 @@ h3{
 
 /* ------------------------------------Text------------------------------*/
 .mainTitle {
-  /* font-size: calc(1.8rem + 3.3vw); */
   font-size: 7vw  ;
   font-family: 'Noto Serif TC', serif;
   font-weight: 700;
@@ -49,7 +48,6 @@ h3{
 }
 
 .secondary-title {
-  /* font-size: calc(1.8rem + 3.3vw); */
   font-size: 5vw  ;
   font-family: 'Noto Serif TC', serif;
   font-weight: 700;
@@ -59,7 +57,6 @@ h3{
 
 
 .experienceTitle {
-  /* font-size: calc(1.8rem + 3.3vw); */
   font-size: 5vw  ;
   font-family: 'Noto Serif TC', serif;
   font-weight: 700;
@@ -225,9 +222,6 @@ font-size: 1.5vw;
   position: relative;
 }
 
-.nav {
-  background-color: #f6f5f5;
-}
 
 .setWidth {
   width: 100%;
@@ -279,6 +273,24 @@ font-size: 1.5vw;
   width: 95%;
 }
 
+@media (min-width: 2200px) {
+  .photo {
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1069px) {
+  .photo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .photo {
+    width: 110%;
+  }
+}
 
 .round-img {
   width: 100%;
@@ -353,14 +365,6 @@ color: #f6f5f5
   text-align: center;
   color: #3bb4c1
 }
-
-.modal-green-head{
-
-  }
-
-.modal-grey-head{
-
-  }
 
 .modal-text{
   padding: 1% 10%;
