@@ -12,26 +12,8 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+ <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
-    (function() {
-      emailjs.init("user_68VMsrO5EgQ6t0YBsD4Vy");
-    })();
-  </script>
-  <script type="text/javascript">
-    window.onload = function() {
-      document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('service_iq2fl0n', 'contact_form', this)
-          .then(function() {
-            console.log('SUCCESS!');
-          }, function(error) {
-            console.log('FAILED...', error);
-          });
-      });
-    }
-
     (function() {
       emailjs.init("user_68VMsrO5EgQ6t0YBsD4Vy");
     })();
@@ -48,9 +30,18 @@
             console.log('FAILED...', error);
           });
       });
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        this.contact_number.value = Math.random() * 100000 | 0;
+        emailjs.sendForm('service_iq2fl0n', 'contact_form', this)
+          .then(function() {
+            console.log('SUCCESS!');
+          }, function(error) {
+            console.log('FAILED...', error);
+          });
+      });
     }
   </script>
-
 </head>
 
 <body>
@@ -324,7 +315,7 @@
   <!--Form Modals-->
 
   <div class="modal  modal-fullscreen-sm-down" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-fullscreen-sm-down">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title " id="contactModalLabel">New message</h5>
@@ -355,7 +346,7 @@
   </div>
 
   <div class="modal  modal-fullscreen-sm-down" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-fullscreen-sm-down">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
           <h5 class="title " id="cvModalLabel">Request CV</h5>
