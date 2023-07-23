@@ -291,11 +291,11 @@ font-size: 1.5vw;
     width: 110%;
   }
 
-  @media screen and (max-width: 770px) {
+ /* @media screen and (max-width: 770px) {
   .photo {
     display: none;
   }
-}
+} */
 
 .round-img {
   width: 100%;
