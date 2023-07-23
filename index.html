@@ -15,7 +15,7 @@
  <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
     (function() {
-      emailjs.init("user_68VMsrO5EgQ6t0YBsD4Vy");
+      emailjs.init('GONcf20okC_6DA5uM');
     })();
   </script>
   <script type="text/javascript">
@@ -23,7 +23,7 @@
       document.getElementById('cv-form').addEventListener('submit', function(event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('service_iq2fl0n', 'cv_form', this)
+        emailjs.sendForm('service_qst90b9', 'cv_form', this)
           .then(function() {
             console.log('SUCCESS!');
           }, function(error) {
@@ -33,7 +33,7 @@
       document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('service_iq2fl0n', 'contact_form', this)
+        emailjs.sendForm('service_qst90b9', 'contact_form', this)
           .then(function() {
             console.log('SUCCESS!');
           }, function(error) {
@@ -68,7 +68,7 @@
           <div class="row relative">
           <div class="col-xl-2 col-sm-1 "></div>
           <div class="col-xl-5 col-lg-6 col-md-5">
-        <img src="croppedPhoto.png" class="photo">
+        <img src="croppedPhotoNew.png" class="photo">
         </div>
         <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-5"></div>
       </div>
@@ -82,7 +82,7 @@
   <div class="col-lg-12 col-md-7">
           <h2 class="hi subtitle animate__animated animate__fadeIn ">Hi,</h2>
           <h1 class="name mainTitle animate__animated animate__fadeIn">I'm Sam</h1>
-          <h2 class=" jobdes subtitle animate__animated animate__fadeIn bottomRow">I'm a Digital Marketer <br>& aspiring Developer</h2>
+          <h2 class=" jobdes subtitle animate__animated animate__fadeIn bottomRow">I'm a Marketing Communications Professional, <br>specialising in Digital Marketing</h2>
           <button type="button" class="btn btn-z btnFont btn-lg btn-outline-dark animate__animated animate__fadeIn introBtn" data-toggle="modal" data-target="#contactModal">Contact me</button>
   </div>
   </div>
@@ -102,10 +102,10 @@
           <h2 class="secondary-title" data-aos="zoom-in">About me</h2>
           <br>
           <p class="bodyText bottomRow" data-aos="zoom-in">I have spent the entire of my career as a marketer in the healthcare sector. Having worked both agency and client
-            side I have a wealth of experience in helping pharmaceutical, medical device and health infrastructure businesses reach their customers on and offline.
+            side I have a wealth of experience in helping pharmaceutical, MedTech and health infrastructure businesses reach their customers on and offline.
             <br>
             <br>
-            I have a diverse digital marketing skillset and have recently embarked on a mission to upskill as a web developer. </p>
+            I have a diverse marketing and communications skillset, with a special focus on digital marketing. </p>
             <br>
             <br>
         </div>
@@ -236,10 +236,25 @@
           <img class="round-img-lg" src="wellspect.png" alt="">
           <h3>Wellspect<br>Healthcare</h3>
 
-          <p class="bodyText">2019-Present</p>
+          <p class="bodyText">2021-Present</p>
+          <br>
+          <button class="btn btn-experience btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#wellspectCurrent">
+          Digital Marketing Manager (Global)
+          </button>
+        </div>
+
+        </div>
+
+      <div class="row center">
+
+        <div class="col-8 col-md-5 experienceDetail whiteText " data-aos="zoom-in">
+          <img class="round-img-lg" src="wellspect.png" alt="">
+          <h3>Wellspect<br>Healthcare</h3>
+
+          <p class="bodyText">2019-2021</p>
           <br>
           <button class="btn btn-experience btn-outline-light btnFont" type="button" data-toggle="modal" data-target="#wellspect1">
-          Digital Marketing Manager
+          Digital Marketing Manager (UK)
           </button>
         </div>
 
@@ -387,11 +402,15 @@
         </div>
         <div class="modal-body">
           <div class="skills-modal-text">
-            <p class="skills-body-text">Quality content is the fuel of any good digital marketing strategy, well targeted content can create awareness, conduce conversion or bring extra value for exisiting customers.
-              I have experience in developing a range of persona-targeted content including:</p>
+            <p class="skills-body-text">Quality content is the fuel of any good digital marketing strategy. Well executeded content can drive brand awareness, create prospects or bring added value for exisiting customers.
+              I have experience in developing a range on and offline content:</p>
+              <br>
             <ul>
               <li>
                 <p class="skills-body-text">Blogs and editorial</p>
+              </li>
+              <li>
+                <p class="skills-body-text">Social content</p>
               </li>
               <li>
                 <p class="skills-body-text">White papers and studies</p>
@@ -425,7 +444,7 @@
           <div class="modal-text">
             <p class="skills-body-text">Marketing automation is more than simply automating repetitive tasks. Leveraging automation software can help businesses to deliver targeted customer journeys that nurture leads and continually add value for customers.
               <br><br>
-               I have more than four years experience of working with marketing automation and the inbound marketing methodology via Hubspot. I'm as comfortable with building marketing workflows and I am creating the content with which to populate them.
+               I have more than six years experience of working with marketing automation software and building customer journeys with Hubspot and Salesforce. I'm as comfortable with building marketing workflows and I am creating the content with which to populate them.
               </p>
           </div>
         </div>
@@ -445,9 +464,9 @@
         </div>
         <div class="modal-body">
           <div class="modal-text">
-            <p class="skills-body-text">One of the main advantages of digital advertising and content is the access to rich data from which we can learn to continually improve campaign performance.
+            <p class="skills-body-text">One of the main advantages of digital advertising and content is the access to rich data from which we can continually optimize cent and campaign performance.
               From site analytics to digital campaign metrics, I am confident working with and gaining insight from the data available to digital marketers. In addition,
-              I have plenty of experience building reports for clients and colleagues to share results and actionable insights.
+              I have plenty of experience building reports and dashboards for clients and internal stakeholders to share results and actionable insights.
             </p>
           </div>
         </div>
@@ -486,7 +505,7 @@
         </div>
         <div class="modal-body">
           <div class="modal-text">
-            <p class="skills-body-text">Although largely self-taught, I have many years' experience with Adobe Creative suite software including:</p>
+            <p class="skills-body-text">I have many years' experience with Adobe Creative and other design suite software including:</p>
             <div class="two-column">
               <ul>
                 <li>
@@ -501,6 +520,9 @@
                 </li>
                 <li>
                   <p class="skills-body-text">Premier Pro</p>
+                </li>
+                <li>
+                  <p class="skills-body-text">Canva</p>
                 </li>
               </ul>
             </div>
@@ -521,9 +543,9 @@
         </div>
         <div class="modal-body">
           <div class="modal-text">
-            <p class="skills-body-text">I'm a big believer that digital advertising can deliver above and beyond print and other traditional mediums.
-              Digital ads are cost effective, highly targeted and provide detailed metrics that make it simple to deliver return on investment.
-              I have experience running digital ad campaigns via both social media and third-party display.</p>
+            <p class="skills-body-text">I'm a big believer that digital advertising can deliver above and beyond print and other traditional advertising mediums.
+              Digital ads are cost effective, highly targeted and can be continually optimized, making it simple to deliver return on investment.
+              I have experience running global campaigns across social, search, and display.</p>
           </div>
         </div>
         <div class="modal-footer">
@@ -537,11 +559,15 @@
     <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
       <div class="modal-content">
         <div class="modal-header modal-green-head">
-          <h5 class="title" id="webLabel">Web Development & Content Managment</h5>
+          <h5 class="title" id="webLabel">Web Development & Content Management</h5>
         </div>
         <div class="modal-body">
           <div class="modal-text">
-            <p class="skills-body-text"> I've always had and interest in web development and have recently learnt to develop my own website and web apps.
+            <p class="skills-body-text">
+              I have been content managing websites from day one of my career. I'm experienced with Optimizely, WordPress, Sitecore and Umbraco and more than capable of turning my hand to a new CMS.
+             </p>
+             <br><br>
+            <p class="skills-body-text"> Spending so much time working in the back-end of websites led to an interest in web development and I invested time in developing my skills in this area.
               I have experience with the following languages, technologies and frameworks:
               <br>
               <br>
@@ -574,9 +600,7 @@
                 </li>
               </ul>
             </div>
-            <p class="skills-body-text">
-              On the other hand, I have been content managing websites from day one of my career, so I'm comfortable with WordPress, Sitecore and Umbraco and more than capable of turning my hand to a new CMS.
-            </p>
+            
           </div>
         </div>
         <div class="modal-footer">
@@ -594,7 +618,7 @@
         </div>
         <div class="modal-body">
           <div class="modal-text">
-            <p class="skills-body-text">A well designed and sharply written email is a powerful tool in a digital marketers toolkit. I have experience developing email marketing camapigns,
+            <p class="skills-body-text">Despite the continuing rise of social, email is still the most widely used digital communication medium. A well designed and sharply written email is a powerful tool in a marketers toolkit. I have experience developing email marketing camapigns,
               writing and building emails for both mass campaigns and automation in MailChimp, Hubspot and Salesforce.</p>
           </div>
         </div>
@@ -607,42 +631,82 @@
 
   <!--Experience Modals-->
 
-  <div class="modal fade" id="wellspect1" tabindex="-1" aria-labelledby="wellspect1Label" aria-hidden="true">
+  <div class="modal fade" id="wellspectCurrent" tabindex="-1" aria-labelledby="wellspectCurrentLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header modal-grey-head">
-          <h5 class="title" id="wellspect1Label">Digital Marketing Manager</h5>
+          <h5 class="title" id="wellspectCurrentLabel">Digital Marketing Manager (Global)</h5>
         </div>
         <div class="modal-body">
           <div class="modal-text">
             <ul class="bodyTextSml">
               <li>
-                <p>As Digital Marketing Manager, I have been solely responsible for developing and delivering the digital marketing strategy for Wellspect in the UK.</p>
+                <p>As the Global Digital Marketing Manager, I am a key part of the Global Marketing Communications Team in our HQ. Although I am still very hands on with most of the digital comms and advertising material we produce, this role is equally about defining and driving the digital marketing strategy for the business globally.</p>
               </li>
               <li>
-                <p>Development of digital content including blogs, e-books and other guides to fuel our inbound marketing strategy, driving traffic to the site and converting readers to leads. </p>
+                <p>Setting global digital marketing strategy across paid, owned & earned media.</p>
               </li>
               <li>
-                <p>Content management of two websites: Wellspect.co.uk and Selecthomedelivery.co.uk each of which operates on a separate CMS system. </p>
+                <p>Training, coordinating, and supporting digital marketers across the globe.</p>
               </li>
               <li>
-                <p>Social media management of the Wellspect Facebook, Twitter and YouTube accounts, including post creation, scheduling and management of direct messages.</p>
+                <p>Ensuring that digital communications are aligned with commercial objectives.</p>
               </li>
               <li>
-                <p>Development and delivery of social media advertising campaigns, with recent campaigns setting a record high for both site traffic and conversions for the UK site. </p>
+                <p>Using data to continually optimize messaging and strategy across all channels. </p>
               </li>
               <li>
-                <p> Writing and designing marketing emails, both outbound emails to support campaigns and lead nurturing as part of the inbound methodology. </p>
+                <p> Heavy involvement with CMS, marketing automation and CRM systems. </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.wellspect.com">
+            <button type="button" class="btn btn-dark">Visit Wellspect</button>
+          </a>
+          <button type="button" class="btn btn-secondary btnFont" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="wellspect1" tabindex="-1" aria-labelledby="wellspect1Label" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header modal-grey-head">
+          <h5 class="title" id="wellspect1Label">Digital Marketing Manager (UK)</h5>
+        </div>
+        <div class="modal-body">
+          <div class="modal-text">
+            <ul class="bodyTextSml">
+              <li>
+                <p>As Digital Marketing Manager, I was solely responsible for developing and delivering the digital marketing strategy for Wellspect in the UK.</p>
               </li>
               <li>
-                <p>Selection and management of third-party digital advertising partners, delivering a combination of sponsored content, email marketing and display advertising.</p>
+                <p>Developed digital content including blogs, e-books and other guides to fuel our inbound marketing strategy, driving traffic to the site and converting readers to leads. </p>
               </li>
               <li>
-                <p>Production of a monthly digital marketing and communications report, combining all website, social and other digital activity to spot trends and make recommendations for the wider business.
-                  As well as mini reports for campaigns or product launches.</p>
+                <p>Content managed of two websites: Wellspect.co.uk and Selecthomedelivery.co.uk each of which operates on a separate CMS system. Eventually overseeing a complete redesign of the latter site. </p>
               </li>
               <li>
-                <p>In addition to my digital marketing responsibilities, I also continue to manage the Select Home Delivery Brand.</p>
+                <p>Managed Wellspect UK's social accounts including LinkedIn, Facebook, Twitter and YouTube. This entailed post creation, scheduling and community management.</p>
+              </li>
+              <li>
+                <p>Developed and delivered of social media advertising campaigns, setting a record high for both site traffic and conversions for the UK site. </p>
+              </li>
+              <li>
+                <p> Wrote and designed marketing emails for both outbound email campaigns and automated lead nurturing. </p>
+              </li>
+              <li>
+                <p>Managed of third-party digital advertising partners, delivering a combination of sponsored content, email marketing and display advertising.</p>
+              </li>
+              <li>
+                <p>Produced a monthly digital marketing and communications report, combining all website, social and other digital activity to spot trends and make recommendations for the wider business.
+                  Also produced mini reports for campaigns or product launches.</p>
+              </li>
+              <li>
+                <p>In addition to my digital marketing responsibilities, I continued to manage the Select Home Delivery Brand.</p>
               </li>
             </ul>
           </div>
@@ -711,17 +775,12 @@
           <div class="modal-text">
             <ul class="bodyTextSml">
               <li>
-                <p>As an Account Manager within a small but aspiring marketing agency, it is my responsibility to liaise with clients and help to deliver their brief – on time and on budget.
-                  My client list was made up of both B2B and B2C include heritage teething brand Ashton & Parsons, Europe's number one gluten-free brand Dr Schär and leading London planning consultancy Quod.</p>
+                <p>Managed a roster of clients from several sectors including health and beauty, 
+                  professional services, and sport. Delivering their brief on time and on budget.</p>
               </li>
               <li>
-                <p>Working with designers, copywriters and web developers to ensure that my client’s projects are delivered to the high standard expected of the agency.</p>
-              </li>
-              <li>
-                <p>Project managing large campaigns (online and offline), brand development or rebrand work and delivery of everything from websites to television ads, blog content and social media activity.</p>
-              </li>
-              <li>
-                <p>Managing relationships with a host of suppliers including freelancers, printers and photographers and videographers to deliver cost effective solutions for my clients.</p>
+                <p>Collaborating with a team of in-house copywriters, designers, web developers, 
+                  in addition to external suppliers such as printers, photographers, videographers and freelancers.</p>
               </li>
               <li>
                 <p>Content managing several client sites and producing monthly analytics reports to highlight trends and recommend actions.</p>
@@ -752,15 +811,18 @@
           <div class="modal-text">
             <ul class="bodyTextSml">
               <li>
-                <p>As Vanguard’s only Communications professional, I replaced an external PR team and had to learn quickly to deliver the company’s brand values over several mediums – designing, implementing and monitoring strategic communications
-                  campaigns both in the UK and in partnership with our agents in Europe.</p>
+                <p>As Vanguard’s only Communications professional, I replaced an external PR team.</p>
               </li>
               <li>
-                <p>Writing editorial features and press statements to position Vanguard as a thought leader in the healthcare sector – this often means by-lining pieces to senior management and board members – in doing so developing the ability to
-                  assume different writing styles.</p>
+                <p> Produced a range of written content to promote Vanguard on and offline, 
+                  including blogs, editorial, advertorial, case studies and social media content.
+                  </p>
               </li>
               <li>
-                <p>Working alongside agents in key European markets, including Germany, Belgium, The Netherlands and Sweden to facilitate the delivery of Vanguard’s marketing strategies.</p>
+                <p>Content managing the Vanguard website and social media channels.</p>
+              </li>
+              <li>
+                <p>Coordinated and supported events and conferences.</p>
               </li>
             </ul>
           </div>
@@ -809,3 +871,4 @@
 </body>
 
 </html>
+
