@@ -343,7 +343,7 @@ font-size: 1.5vw;
 .name {
   animation: fadeIn;
   animation-duration: 800s;
-  animation-delay: 1.5s;
+  animation-delay: 1.5s
 }
 
 .jobdes {
