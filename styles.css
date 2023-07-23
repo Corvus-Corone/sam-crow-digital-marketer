@@ -290,12 +290,7 @@ font-size: 1.5vw;
   .photo {
     width: 110%;
   }
-
- /* @media screen and (max-width: 770px) {
-  .photo {
-    display: none;
-  }
-} */
+}
 
 .round-img {
   width: 100%;
@@ -343,7 +338,7 @@ font-size: 1.5vw;
 .name {
   animation: fadeIn;
   animation-duration: 800s;
-  animation-delay: 1.5s
+  animation-delay: 1.5s;
 }
 
 .jobdes {
