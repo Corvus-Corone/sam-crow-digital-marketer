@@ -18,12 +18,12 @@
       emailjs.init('GONcf20okC_6DA5uM');
     })();
   </script>
-  <script type="text/javascript">
+    <script type="text/javascript">
     window.onload = function() {
       document.getElementById('cv-form').addEventListener('submit', function(event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('service_qst90b9', 'cv_form', this)
+        emailjs.sendForm('service_qst90b9', 'template_mdscbi7', this)
           .then(function() {
             console.log('SUCCESS!');
           }, function(error) {
@@ -33,7 +33,7 @@
       document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
         this.contact_number.value = Math.random() * 100000 | 0;
-        emailjs.sendForm('service_qst90b9', 'contact_form', this)
+        emailjs.sendForm('service_qst90b9', 'template_oe8x3wk', this)
           .then(function() {
             console.log('SUCCESS!');
           }, function(error) {
