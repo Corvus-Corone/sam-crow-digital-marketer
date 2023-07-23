@@ -332,6 +332,7 @@ font-size: 1.5vw;
   animation: fadeIn;
   animation-duration: 800ms;
   animation-delay: 0.5s;
+  font-size: 2.5vw;
 }
 
 .name {
@@ -344,6 +345,7 @@ font-size: 1.5vw;
   animation: fadeIn;
   animation-duration: 800ms;
   animation-delay: 3s;
+  font-size: 2.5vw;
 }
 
 .introBtn {
